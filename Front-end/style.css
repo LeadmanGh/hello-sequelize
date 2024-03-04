@@ -1,0 +1,132 @@
+* {
+   background-color: azure;
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0;
+}
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: small;
+}
+
+a {
+    text-decoration-line: none;
+    text-decoration-color: black;
+}
+
+
+.nav  {
+    position: relative;
+    display: flex;
+    height: 80px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: lightskyblue;
+
+}
+
+.nav-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightskyblue;
+    height: 100%;
+    width: 80%;
+    
+}
+
+.nav-icon {  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: azure;  
+    border-radius: 3%;
+    height: fit-content;
+  
+}
+
+.nav-icon h2 {
+    color: black;
+    font-weight: 600;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 1rem;
+    padding: 20px;
+
+}
+
+
+.nav-links-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:azure;  
+    height: fit-content;
+    padding: 10px;
+    border-radius: 1%;
+    margin-left: auto;
+    border: 1px solid black;
+
+}
+
+
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.nav-links li{ 
+    margin-left: 10px;
+    list-style: none;
+}
+    
+
+nav ul a {
+    font-family: monospace;
+    font-weight: 300;
+    font-size: 18px;
+    color: black;
+
+}
+
+.nav-link-1:hover{
+     font-size: 20px;
+     left: 20px;
+     background-color: black;
+     padding-left:8px;
+     border: 2px blue solid;
+     color: lightblue;
+     transition:all 0.2s ease-in;
+}
+
+.nav-link-2:hover{
+    font-size: 20px;
+    left: 20px;
+    background-color: black;
+    padding-left:8px;
+    border: 2px blue solid;
+    color: lightblue;
+    transition:all 0.2s ease-in;
+}
+
+.nav-link-3:hover{
+    font-size: 20px;
+    left: 20px;
+    background-color: black;
+    padding-left:8px;
+    border: 2px blue solid;
+    color: green;
+    transition:all 0.2s ease-in;
+}
+
+.Ad{
+    display: block;
+   align-items: center;
+   justify-content: center;
+   height: 30vh;
+   width: 100%;
+   color: aquamarine;
+}
